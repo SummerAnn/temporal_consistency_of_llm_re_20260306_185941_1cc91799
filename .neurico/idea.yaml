@@ -1,0 +1,32 @@
+idea:
+  title: Temporal Consistency of LLM Reasoning Under Paraphrased Prompts
+  domain: artificial_intelligence
+  hypothesis: LLMs produce inconsistent reasoning chains when given semantically equivalent
+    but syntactically different prompts, and this inconsistency increases with task
+    complexity
+  background:
+    description: LLMs are sensitive to prompt phrasing, but the relationship between
+      paraphrasing and reasoning consistency is underexplored. Understanding this
+      has implications for reliability in scientific applications.
+  methodology:
+    approach: Test multiple LLMs with paraphrased versions of reasoning tasks at varying
+      complexity levels, measuring answer and reasoning chain consistency
+    steps:
+    - Generate 50 reasoning tasks across 3 complexity tiers (simple, moderate, complex)
+    - Create 5 paraphrased versions of each task using systematic transformations
+    - Query 3 LLMs with all prompt variants and collect reasoning traces
+    - Measure consistency using semantic similarity and answer agreement metrics
+    - Analyze correlation between task complexity and consistency degradation
+    baselines:
+    - Random baseline (expected consistency by chance)
+    - Embedding similarity of paraphrased prompts
+    metrics:
+    - Answer agreement rate across paraphrases
+    - Reasoning chain semantic similarity (BERTScore)
+    - Consistency degradation slope across complexity tiers
+  metadata:
+    idea_id: temporal_consistency_of_llm_re_20260306_185941_1cc91799
+    created_at: '2026-03-06T18:59:41.449128'
+    status: submitted
+    github_repo_name: temporal_consistency_of_llm_re_20260306_185941_1cc91799
+    github_repo_url: https://github.com/SummerAnn/temporal_consistency_of_llm_re_20260306_185941_1cc91799
