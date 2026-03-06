@@ -1,0 +1,14 @@
+{
+  "success": false,
+  "stages": {
+    "resource_finder": {
+      "success": false,
+      "completion_marker": null,
+      "outputs": {},
+      "log_file": "/workspaces/temporal_consistency_of_llm_re_20260306_185941_1cc91799/logs/resource_finder_claude.log",
+      "transcript_file": "/workspaces/temporal_consistency_of_llm_re_20260306_185941_1cc91799/logs/resource_finder_claude_transcript.jsonl",
+      "elapsed_time": 14.566123723983765
+    }
+  },
+  "work_dir": "/workspaces/temporal_consistency_of_llm_re_20260306_185941_1cc91799"
+}
