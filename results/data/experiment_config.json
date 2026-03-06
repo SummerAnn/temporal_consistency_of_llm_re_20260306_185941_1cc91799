@@ -1,0 +1,28 @@
+{
+  "seed": 42,
+  "n_problems_per_tier": 30,
+  "n_paraphrases_per_problem": 4,
+  "total_versions_per_problem": 5,
+  "models_tested": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-4-6"
+  ],
+  "paraphrase_model": "claude-haiku-4-5-20251001",
+  "temperature": 0.0,
+  "max_tokens": 1024,
+  "datasets": {
+    "simple": "GSM-Plus problem_understanding pairs (GSM8K base)",
+    "moderate": "MATH-500 Level 1-2",
+    "complex": "MATH-500 Level 3-5"
+  },
+  "normalization_methods": [
+    "strict",
+    "numeric_focused"
+  ],
+  "metrics": [
+    "answer_agreement_rate",
+    "pairwise_answer_agreement",
+    "original_vs_paraphrase_agreement",
+    "tfidf_cosine_similarity"
+  ]
+}

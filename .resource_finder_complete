@@ -1,0 +1,18 @@
+Resource finding phase completed successfully.
+Timestamp: 2026-03-06T19:45:00+00:00
+Papers downloaded: 18
+Datasets downloaded: 6
+Repositories cloned: 5
+
+Summary:
+- 18 papers on LLM reasoning consistency, paraphrase robustness, and related benchmarks
+- 6 datasets: GSM8K, MATH-500, GSM-Plus, SVAMP, ARC-Challenge, AQuA-RAT
+- 5 repositories: promptbench, gsm_plus, prosa, gsm_ic, gsm8k_consistency
+
+Key finding from literature:
+- Correct reasoning paths are more robust to paraphrastic perturbations than incorrect ones
+  (>90% correct answers have consistency score >= 1 vs ~30% for incorrect; PPCV paper)
+- LLM performance drops with increased problem complexity (clause count, difficulty)
+  (GSM-Symbolic: up to 65% drop with single added clause)
+- GSM-Plus "problem_understanding" perturbation provides ready-made paraphrase pairs
+- Self-Consistency (Wang et al., 2023) is the primary baseline to outperform
